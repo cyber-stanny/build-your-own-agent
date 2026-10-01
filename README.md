@@ -56,3 +56,7 @@ bash scripts/verify.sh   # 离线跑全部示例和回归场景（mock 模式）
 
 - **知识库 / RAG**：切块、embedding、向量检索，以及「检索后注入」和「检索作为工具」的对比
 - **框架篇**：用主流 agent 框架重写同一个 agent，和手写版逐行对照，看框架替你做了什么
+
+## License
+
+[MIT](LICENSE)

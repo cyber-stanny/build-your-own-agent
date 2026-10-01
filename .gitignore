@@ -1,0 +1,24 @@
+# 依赖
+node_modules/
+
+# 密钥
+.env
+.env.*
+!.env.example
+
+# OS / 编辑器
+.DS_Store
+*.log
+
+# mini-agent / patterns 本地运行产物
+mini-agent/05-session/sessions/
+mini-agent/06-memory/memory.json
+mini-agent/10-complete-agent/workspace/
+mini-agent/10-complete-agent/sessions/
+patterns/**/workspace/
+patterns/**/sessions/
+patterns/file-organizer-agent/messy-files/
+
+# case-study 运行产物
+case-study/runtime/sessions/*.db*
+case-study/runtime/memory/state.json

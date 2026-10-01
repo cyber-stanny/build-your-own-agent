@@ -27,6 +27,8 @@
 
 ## 大纲
 
+「素材」列指重写前的旧版内容，已从工作区移除，需要参考时从这里取：本仓库提交 `e56af31`（`git show e56af31:<路径>`，路径如 `mini-agent/01-basic-chat/agent.mjs`、`patterns/coding-agent/`），表中「mini-agent」「patterns」「case-study」即其中同名目录。旧版只作素材，不照搬结构。
+
 ### 第 0 课 · Agent 到底是什么，什么时候不该用它
 
 单次 LLM 调用、workflow、agent 三档对比；agent 用延迟和成本换灵活性，简单方案够用时不该上 agent。
